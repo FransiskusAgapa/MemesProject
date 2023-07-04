@@ -1,0 +1,71 @@
+* {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  background-color: rgb(233, 209, 233);
+}
+
+#title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: rgb(245, 38, 245);
+  background-color: white;
+}
+
+#display {
+  height: 400px;
+  width: 600px;
+  border: 5px solid rgb(255, 255, 255);
+  border-width: 0.5rem;
+}
+
+#back {
+  height: 400px;
+}
+
+/* .option {
+  background-color: white;
+} */
+
+#subst {
+  color: rgb(198, 50, 228);
+}
+
+#subnd {
+  color: yellow;
+}
+
+#subrd {
+  color: blue;
+}
+
+#subth {
+  color: green;
+}
+
+/* this take out the anchor tag blue line */
+a {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* enable anchor tag to be modified */
+a[id="one"] {
+  color: rgb(245, 90, 90);
+}
+
+a[id="two"] {
+  color: rgb(243, 243, 76);
+}
+
+a[id="three"] {
+  color: rgb(129, 129, 247);
+}
+
+a[id="four"] {
+  color: rgb(153, 255, 1);
+}
+
+#footer {
+  margin-top: 50px;
+}

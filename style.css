@@ -12,6 +12,8 @@
 }
 
 #display {
+  /* height: 400px;
+  width: 600px; */
   object-fit: cover;
   border: 5px solid rgb(255, 255, 255);
   border-width: 0.5rem;
@@ -67,4 +69,9 @@ a[id="four"] {
 
 #footer {
   margin-top: 50px;
+}
+
+.shadow {
+  box-shadow: 3px 3px 10px black;
+  transition: 300ms;
 }
